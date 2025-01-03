@@ -1,22 +1,28 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 import { InlineWidget } from "react-calendly";
-import "./CalendarPage.css";
+import "./css/CalendarPage.css";
 
 const CalendarPage = () => {
   return (
-    <div className="calendar-page">
-      <dev className="header">
-        <h1>
-          <FontAwesomeIcon icon={faCalendarAlt} /> Schedule a Session
-        </h1>
-      </dev>
-      <InlineWidget
-        url="https://calendly.com/unitysky"
-        styles={{ height: "100%", width: "100%" }}
-      />
-    </div>
+    <>
+      <Navbar />
+      <div className="calendar-page">
+        <header className="header">
+          <h1>
+            <FontAwesomeIcon icon={faCalendarAlt} /> Schedule a Session
+          </h1>
+        </header>
+        <InlineWidget
+          url="https://calendly.com/unitysky"
+          styles={{ height: "100%", width: "100%" }}
+        />
+      </div>
+      <Footer />
+    </>
   );
 };
 

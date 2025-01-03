@@ -1,30 +1,23 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import "./App.css";
+import "./css/App.css";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const App = () => {
-  const navigate = useNavigate();
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Get Tech Offers</h1>
-        <p>Helping software engineers land their dream jobs.</p>
-        <button
-          onClick={() => navigate("/calendar")}
-          className="calendly-button"
-        >
-          Schedule a Call
-        </button>
-      </header>
-      <main>{/* Add any additional content for the main page here */}</main>
-      <footer>
-        <p>
-          &copy; {new Date().getFullYear()} Get Tech Offers. All rights
-          reserved.
-        </p>
-      </footer>
-    </div>
+    <>
+      <Navbar />
+      <div className="App">
+        <header className="App-header">
+          <h1>Get Tech Offers</h1>
+          <p>Helping software engineers land their dream jobs.</p>
+          <button to="/calendar" className="calendly-button">
+            Schedule a Call
+          </button>
+        </header>
+      </div>
+      <Footer />
+    </>
   );
 };
 
