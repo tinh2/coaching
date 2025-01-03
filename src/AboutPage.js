@@ -18,7 +18,7 @@ const AboutPage = () => {
 
         <main className="about-container">
           <p>
-            Hello, I’m Tho Le. I’m a dedicated software engineering professional
+            Hello, I’m Tho. I’m a dedicated software engineering professional
             with over 10 years of industry experience and a passion for helping
             fellow developers achieve their career goals.
           </p>
