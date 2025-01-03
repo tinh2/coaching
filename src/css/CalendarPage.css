@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.calendar-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 47px;
+}
+
+.header {
+  text-align: center;
+}
+
+.calendar-page .InlineWidget {
+  flex-grow: 1;
+  width: 100%;
+}
