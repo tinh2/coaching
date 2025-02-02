@@ -16,6 +16,16 @@ const testimonials = [
     text: "I can't thank Tho enough for helping me go from zero experience to landing my first dev job in just six months. His mentorship was exactly what I needed—he broke down complex concepts, guided me through interview prep, and gave me the confidence to tackle real-world coding challenges. Tho doesn't just teach you how to code; he teaches you how to think like a software engineer and approach problems with a professional mindset. If you're serious about breaking into tech or are an experienced developer looking to improve your skills, Tho is the mentor you are looking for!",
     image: "/adam.jpg",
   },
+  {
+    name: "Chris Scott",
+    text: "If you're looking for a mentor who can make the seemingly impossible feel achievable, Tho Le is your answer. His mastery of SQL (in my case) is matched only by his exceptional teaching methodology. Tho has a rare talent for breaking down even the most complex concepts into clear, digestible steps, ensuring nothing feels out of reach. His patience is remarkable—he meets you exactly where you are, assesses, and walks alongside you, adapting his approach to fit your learning style. What sets Tho apart is his ability to inspire confidence while teaching not just the 'how' but the 'why' behind every concept, empowering you to think critically and solve problems like a seasoned professional. Having worked over a decade in the industry, he has seen it all, and his “insider” approach gives you the exact focus you need to succeed. Whether you're a beginner (like me) or a professional looking to sharpen your skills, learning from Tho is an investment in your success. I can’t recommend him enough.",
+    image: "/chris.png",
+  },
+  {
+    name: "Anonymous",
+    text: "Thank you so much, Tho! It still feels surreal to have landed this job, and I owe it all to your support and guidance. You completely eased my worries—your mock interviews gave me the confidence I was missing and fueled my hunger for success. I can’t recommend you enough for anyone who wants to walk into an interview feeling calm, prepared, and ready to shine!",
+    image: "https://placehold.co/100x100?text=Anonymous",
+  },
 ];
 
 const TestimonialsPage = () => {

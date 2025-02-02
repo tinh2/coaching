@@ -17,6 +17,14 @@ const AboutPage = () => {
         </header>
 
         <main className="about-container">
+          <div className="profile-image-container">
+            <img
+              src="/profile.jpg"
+              alt="Tho - Software Engineer"
+              className="profile-image"
+            />
+          </div>
+
           <p>
             Hello, I’m Tho. I’m a dedicated software engineering professional
             with over 10 years of industry experience and a passion for helping

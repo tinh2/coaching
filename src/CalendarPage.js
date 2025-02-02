@@ -17,7 +17,7 @@ const CalendarPage = () => {
           </h1>
         </header>
         <InlineWidget
-          url="https://calendly.com/unitysky"
+          url="https://calendly.com/gettechoffers"
           styles={{ height: "100%", width: "100%" }}
         />
       </div>
