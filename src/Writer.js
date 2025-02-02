@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
  * @param {number} speed - Time (ms) between typing each character.
  * @param {number} pause - Time (ms) to show the '|' after each word.
  */
-const Writer = ({ text, speed = 50, pause = 100 }) => {
+const Writer = ({ text, speed = 30, pause = 80 }) => {
   const [typedText, setTypedText] = useState("");
 
   useEffect(() => {
